@@ -4,7 +4,7 @@ const port = 8000;
 http.createServer(function(req, res) {
     console.log(req);
 
-    res.writeHead(200, { "Content-Type": "text/plain" });
+    res.writeHead(200, { "Content-Type": "text/html" });
     res.end(`
         <!DOCTYPE html>
         <html lang="en">
@@ -20,8 +20,9 @@ http.createServer(function(req, res) {
             </p>
         </body>
         </html>
-`);
+    `);
     }).listen(port, function() { 
         console.log(`node server is running on port ${port}...`); 
 }); 
+
 
