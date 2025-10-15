@@ -14,6 +14,7 @@ const htmlContent = `
     <h2>Computer Science Student @ Goldsmiths</h2>
     <p>passionate about tech and coding and worked in diverse job roles
     </p>
+    <p>\n I created and set up a virtual machine to run a node.js server</p>
 </body>
 </html>
 `;
